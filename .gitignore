@@ -1,0 +1,33 @@
+# Virtual Environments
+venv/
+.venv/
+wsl_venv/
+env/
+.env
+
+# Data Files (PCAPs and Large CSVs)
+*.pcap
+*.csv
+*.zip
+*.gz
+*.rar
+
+# Machine Learning Artifacts
+# Keeping small models, ignoring large ones if necessary
+# ids_model_lightweight.pkl  # 29MB - staged for now but keep an eye
+*.ipynb_checkpoints/
+
+# Security Sensitive
+*.pem
+*.key
+*.pub
+
+# OS specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python specific
+__pycache__/
+*.py[cod]
+*$py.class
