@@ -18,9 +18,6 @@ env/
 *.ipynb_checkpoints/
 
 # Security Sensitive
-*.pem
-*.key
-*.pub
 
 # OS specific files
 .DS_Store
